@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+table {
+  margin-top: 25px;
+}
+
+#resultsContainer {
+  height: 70vh;
+}
+
+#clearbitEmail {
+  width: 350px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 4px;
+}
+
+#clearbitSubmit {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 15px;
+  width: 80px;
+  height: 30px;
+}
+
+#clearbitSubmit:hover {
+  background-color: black;
+  color: white;
+}
+
+#clearbitSubmit:focus, #clearbitEmail:focus {
+  outline: none;
+}
+
+td {
+  padding-top: 10px;
+}
