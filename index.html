@@ -2,17 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>ClearBit Demo</title>
+    <title>ClearBit API Demo</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>ClearBit Demo</h1>
-    <div class="form-container">
-      <form action="/hint" method="get" id="clearbitForm">
-        <input type="text" placeholder="Stalk someone" id="formInput">
-        <input type="submit" id="formSubmit">
-      </form>
+    <div class="wrapper">
+      <h1>ClearBit API Demo</h1>
+      <div class="form-container">
+        <form action="/hint" id="clearbitForm" method="get">
+          <input type="text" id="formInput" placeholder="Stalk someone" >
+          <input type="submit" id="formSubmit">
+        </form>
+      </div>
       <div class="response-container">
+        <div class="img-container">
+          <img id="userPic" alt="" src="">
+        </div>
 
         <table>
           <tr>
@@ -34,9 +39,6 @@
           </tr>
         </table>
 
-        <div class="img-container">
-          <img src="" id="userPic" alt="">
-        </div>
       </div>
     </div>
     <script src="build/application.js"></script>
